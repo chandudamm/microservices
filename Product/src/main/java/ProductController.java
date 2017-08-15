@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.domain.Customer;
+import com.example.customer.domain.Customer;
 
 @RestController
 @RequestMapping("/")

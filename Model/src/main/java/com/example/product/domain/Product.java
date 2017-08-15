@@ -1,5 +1,8 @@
-package com.example.domain;
+package com.example.product.domain;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Product {
 	private long id;
 	private String sku;

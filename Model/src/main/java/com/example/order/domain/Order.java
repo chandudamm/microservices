@@ -1,7 +1,13 @@
-package com.example.domain;
+package com.example.order.domain;
 
 import java.util.Date;
 
+import org.springframework.stereotype.Component;
+
+import com.example.customer.domain.Customer;
+import com.example.product.domain.Product;
+
+@Component
 public class Order {
 	private long id;
 	private long amount;

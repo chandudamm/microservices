@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.domain.Product;
-import com.example.domain.Product;
+import com.example.product.domain.Product;
 
 @RestController
 @RequestMapping("/")
